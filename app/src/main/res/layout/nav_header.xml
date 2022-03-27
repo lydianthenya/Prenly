@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/standard_height"
+        android:onClick="home"
+        android:layout_marginTop="@dimen/standard_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/im_home"
+            android:layout_width="@dimen/ic_album_overflow_height"
+            android:layout_height="@dimen/ic_album_overflow_height"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding"
+            android:src="@mipmap/ic_home" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/ic_album_overflow_height"
+            android:fontFamily="@font/thic_boi_regular"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/album_title"
+        android:layout_height="@dimen/view_height">
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:layout_weight="1"
+        android:fontFamily="@font/thick_boi_bold"
+        android:text="Current Affairs"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:onClick="sports"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/one"
+            android:layout_width="@dimen/backdrop_title"
+            android:layout_height="@dimen/backdrop_title"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding"
+            android:src="@mipmap/ic_trophy" />
+
+        <TextView
+            android:id="@+id/vvtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/backdrop_title"
+            android:fontFamily="@font/thic_boi_regular"
+            android:text="Sports"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/album_title"
+        android:layout_height="@dimen/view_height">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:onClick="business"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/twvo"
+            android:layout_width="@dimen/ic_album_overflow_height"
+            android:layout_height="@dimen/ic_album_overflow_height"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding"
+            android:src="@mipmap/ic_briefcase" />
+
+        <TextView
+            android:id="@+id/thee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:onClick="business"
+            android:layout_marginLeft="@dimen/ic_album_overflow_height"
+            android:fontFamily="@font/thic_boi_regular"
+            android:text="Business"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/album_title"
+        android:layout_height="@dimen/view_height">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:onClick="politics"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/politics"
+            android:layout_width="@dimen/ic_album_overflow_height"
+            android:layout_height="@dimen/ic_album_overflow_height"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding"
+            android:src="@mipmap/ic_politician" />
+
+        <TextView
+            android:id="@+id/pl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/ic_album_overflow_height"
+            android:fontFamily="@font/thic_boi_regular"
+            android:text="Politics"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/album_title"
+        android:layout_height="@dimen/view_height">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:id="@+id/world"
+        android:onClick="world"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/two"
+            android:layout_width="@dimen/ic_album_overflow_height"
+            android:layout_height="@dimen/ic_album_overflow_height"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding"
+            android:src="@mipmap/ic_world"/>
+
+        <TextView
+            android:id="@+id/txt_world_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/ic_album_overflow_height"
+            android:fontFamily="@font/thic_boi_regular"
+            android:text="World News"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/album_title"
+        android:layout_height="@dimen/view_height">
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fab_margin"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:layout_weight="1"
+        android:fontFamily="@font/thick_boi_bold"
+        android:text="Entertainment"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:onClick="fashion"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/im_vback"
+            android:layout_width="@dimen/ic_album_overflow_height"
+            android:layout_height="@dimen/ic_album_overflow_height"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding"
+            android:src="@mipmap/ic_woman"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/ic_album_overflow_height"
+            android:fontFamily="@font/thic_boi_regular"
+            android:text="Fashion"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fab_margin"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginTop="@dimen/ic_album_overflow_height"
+        android:layout_weight="1"
+        android:fontFamily="@font/thick_boi_bold"
+        android:text="Find Us on Social Media"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ig"
+            android:layout_width="@dimen/standard_width"
+            android:layout_height="@dimen/standard_height"
+            android:onClick="instagram"
+            android:background="@mipmap/instagram"/>
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="@dimen/standard_width"
+            android:layout_height="@dimen/standard_height"
+            android:onClick="facebook"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:background="@mipmap/facebook"/>
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="@dimen/standard_width"
+            android:layout_height="@dimen/standard_height"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:onClick="twitter"
+            android:background="@mipmap/twitter"/>
+
+        <ImageView
+            android:id="@+id/linkedIn"
+            android:layout_width="@dimen/standard_width"
+            android:layout_height="@dimen/standard_height"
+            android:onClick="linkedIn"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:background="@mipmap/linkedin"/>
+
+        <ImageView
+            android:id="@+id/youTube"
+            android:layout_width="@dimen/standard_width"
+            android:layout_height="@dimen/standard_height"
+            android:onClick="youtube"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:background="@mipmap/youtube" />
+
+    </LinearLayout>
+
+</LinearLayout>

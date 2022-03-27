@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="@dimen/ic_album_overflow_height"
+                android:layout_height="@dimen/ic_album_overflow_height"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:src="@mipmap/ic_logo">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/color_white"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_response_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:fontFamily="@font/thic_boi_regular"
+                    android:layout_toRightOf="@+id/image"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Are you sure you want to logout?"
+                    android:textSize="12dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/dialogBtnOK"
+                        android:layout_height="@dimen/backdrop_title"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/thick_boi_bold"
+                        android:layout_margin="@dimen/ic_album_overflow_width"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@drawable/btn_outline"
+                        android:text=" Ok " />
+                    <Button
+                        android:id="@+id/dialogBtnCancel"
+                        android:layout_height="@dimen/backdrop_title"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/thick_boi_bold"
+                        android:layout_margin="20dp"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@drawable/btn_outline"
+                        android:text=" Cancel " />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

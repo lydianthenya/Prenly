@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Prenly</string>
+    <string name="action_settings">Settings</string>
+    <string name="author">View Author</string>
+    <string name="action_add_favourite">Add Favorite</string>
+
+    <string name="unknown">unknown</string>
+    <string name="author_name">Author</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="default_topic">"TOP HEADLINES"</string>
+    <string name="fashion">"fashion"</string>
+    <string name="sports">"sports"</string>
+    <string name="business">"business"</string>
+    <string name="world">"world"</string>
+    <string name="politics">"politics"</string>
+    <string name="error_occured">"An error occurred when loading this page. Kindly try again later"</string>
+
+    <string name="facebook">"https://www.facebook.com/"</string>
+    <string name="twitter">"https://www.twitter.com/"</string>
+    <string name="linkedin">"https://www.linkedin.com/"</string>
+    <string name="youtube">"https://www.youtube.com/"</string>
+    <string name="instagram">"https://www.instagram.com/"</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="PrenlyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- hii ni ya splash. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/thic_boi_regular</item>
+
+    </style>
+</resources>
